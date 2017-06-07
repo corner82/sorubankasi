@@ -260,8 +260,8 @@ function ulActivation(clicked) {
     }
 
     $.ajax({
-        url: 'https://proxy.trf.com/SlimProxyBoot.php',
-        //                url: 'http://proxy.trf.com:9990/SlimProxyBoot.php',            
+        url: 'https://proxy.sorubankasi.com/SlimProxyBoot.php',
+        //                url: 'http://proxy.sorubankasi.com:9990/SlimProxyBoot.php',            
         data: {
             url: 'pkFillFirmMachineGroupsCounts_infoFirmMachineTool',
             language_code: $("#langCode").val(),
